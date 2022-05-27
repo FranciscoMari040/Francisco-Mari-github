@@ -1,5 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: blue;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255) , rgba(60, 1, 83, 0.637));
 
 }
 h2{
@@ -10,3 +15,124 @@ h3{
     color: black;
     text-align: end;
 }
+
+.contenedor{
+    height: auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.226);
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.233);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.contenedor h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(70, 69, 75);
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 200px;
+    border: 5px solid white;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.c1{
+    transition: all 5s;
+}
+.c1:hover{
+    background-color: rgba(129, 12, 12, 0.733);
+    transform: translate(250px, 50px);
+}
+
+.c2{
+    transition: all 3s;
+}
+.c2:active{
+    background-color: rgba(129, 12, 12, 0.733);
+    transform: rotate(150deg)translate(-100px, 100px)skewX(30deg);
+}
+
+.c3{
+    transition: all 2s;
+}
+.c3:hover{
+    background-color: chocolate;
+    transform: rotateX(120deg)
+}
+
+.c4{
+    transition-delay: 3s;
+}
+.c4:hover{
+    background-color: chocolate;
+    transform: rotateY(40deg);
+}
+
+.c5{
+    transition: all 3s;
+}
+.c5:hover{
+    background-color: cornflowerblue;
+    transform: rotateZ(180deg);
+}
+
+.c6{
+    transition: all 1.3s
+}
+.c6:active{
+    background-color: cornflowerblue;
+    transform: scale(1.3);
+}
+
+.c7{
+    transition: all 4s;
+}
+.c7:hover{
+    background-color: crimson;
+    transform: skewX(30deg);
+}
+.c8{
+    transition: all 2s;
+}
+.c8:hover{
+    background-color: crimson;
+    transform: skewY(20);
+}
+
+.c9{
+    transition: all 3s;
+}
+.c9:hover{
+    background-color: crimson;
+    transform: skew(10deg, 20deg);
+}
+.nav{ list-style: none;
+    padding: 0;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.411);
+    
+    }
+    .nav-a{ text-decoration: none;
+    display: block;
+    color: aliceblue;
+    padding: 10px;
+    margin: 30px;
+    }
+    nav li{ display: inline-block;
+    text-align: center;}
+    nav li:hover{ background-color: rgb(0, 0, 0);}
+    
+    ul{
+        display: flex;
+        justify-content: end;
+    }
